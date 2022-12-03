@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+  <style>
+    .s1,
+    .s2,
+    .s3,
+    .s4 {
+      font-size: 20px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+    .col{
+      border: 2px solid yellow;
+    }
+  </style>
+
+</head>
+
+<body>
+  <p class="h1">h1.bootstrap Heading1</p>
+  <p class="h2">h2.bootstrap Heading1</p>
+  <p class="h3">h3.bootstrap Heading1</p>
+  <p class="h4">h4.bootstrap Heading1</p>
+  <p class="h5">h5.bootstrap Heading1</p>
+  <p class="h6">h6.bootstrap Heading1</p>
+  <p class="display-1">display1</p>
+  <p class="display-2">display2</p>
+  <p class="display-3">display3</p>
+  <p class="display-4">display4</p>
+  <p class="text-center ">Text is aligned in center</p>
+  <p class="list">
+    <li>A</li>
+    <li>B</li>
+    <li>C</li>
+  </p>
+  <dl class="row">
+    <dt class="col-sm-3">Definition1</dt>
+    <dd class="col-sm-9">Defining a description list1.</dd>
+    <br>
+    <dt class="col-sm-3">Definition2</dt>
+    <dd class="col-sm-9">Defining a description list2.</dd>
+  </dl>
+  <ul class="list-inline">
+    <li class="list-inline-item">This is a list item.</li>
+    <li class="list-inline-item">And another one.</li>
+    <li class="list-inline-item">But they're displayed inline.</li>
+  </ul>
+  <p class="bg-success ms-5 me-5" style="--bs-bg-opacity: .5"><svg class="text-center"
+      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill"
+      viewBox="0 0 16 16">
+      <path
+        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+    </svg><span class="text-success s1"> Success!</span> <span> msg has been sent sucessfully</span></p>
+  <p class="bg-info ms-5 me-5" style="--bs-bg-opacity: .5"><svg class="sv1" xmlns="http://www.w3.org/2000/svg"
+      width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
+      <path
+        d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z" />
+      <path
+        d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z" />
+    </svg><span class="text-info s4"> Success!</span> your msg has been sent sucessfully</p>
+  <div class="alert alert-success alert-dismissible fade show" role="alert">
+    <svg class="text-center" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+      <path
+        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+    </svg><span class="text-success s1"> Success!</span> <span> msg has been sent sucessfully</span></p>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+  <P class="bg-success ms-5 me-5 text-success" style="--bs-bg-opacity: .3">Profile saved sucessfully! <span><a
+        href="">View profile </a></span></P>
+  <P class="bg-info ms-5 me-5 text-info" style="--bs-bg-opacity: .3">To edit profile. <span><a href="" class="alert-link"> Click here
+      </a></span></P>
+  <button class="btn btn-primary">Notification heading<span class="badge badge-danger bg-danger">9</span></button>
+  <br>
+  <br>
+  <button class="btn btn-warning"> updates <span class="badge badge-light bg-light text-dark">2</span></button>
+  <div class="text-center"><button class="btn btn-primary">Clickme!!!</button></div>
+  <br>
+  <br>
+  <div class="text-center">
+    <button type="button" class="btn btn-dark position-relative">
+      Badge top right corner
+      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">
+        823
+      </span>
+    </button>
+  </div>
+  <br>
+  <div class="text-center">
+    <button class="btn btn-primary position-relative">
+      Badge top left corner
+      <span class="position-absolute top-0 start-0 translate-middle badge rounded pill bg-danger">9748</span>
+
+    </button>
+  </div>
+  <br>
+  <div class="text-center">
+    <button class="btn btn-warning position-relative">
+      Badge top center
+      <span class="position-absolute top-0 start-50 translate-middle badge rounded pill bg-dark">100</span>
+    </button>
+  </div>
+<br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fflowers%2F&psig=AOvVaw32sS72Gu6H-FDoQaypJL9T&ust=1669003591130000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIDvkYTxu_sCFQAAAAAdAAAAABAE" alt="">
+          <div class="card-body">
+            <div class="card-title">Rose</div>
+            <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quasi amet quia, quas excepturi porro accusamus sunt! Ratione, officiis eligendi!</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+        <img src="" alt="">
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+<div class="container" style="border: 2px solid black;">
+  <div class="row" style="border: 2px solid red;">
+    <div class="col">
+      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fflowers%2F&psig=AOvVaw32sS72Gu6H-FDoQaypJL9T&ust=1669003591130000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIDvkYTxu_sCFQAAAAAdAAAAABAE" alt="">
+
+    </div>
+    <div class="col">
+      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fflowers%2F&psig=AOvVaw32sS72Gu6H-FDoQaypJL9T&ust=1669003591130000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIDvkYTxu_sCFQAAAAAdAAAAABAE" alt="">
+
+    </div>
+    <div class="col">
+      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fflowers%2F&psig=AOvVaw32sS72Gu6H-FDoQaypJL9T&ust=1669003591130000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIDvkYTxu_sCFQAAAAAdAAAAABAE" alt="">
+    </div>
+    <div class="col">
+      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fflowers%2F&psig=AOvVaw32sS72Gu6H-FDoQaypJL9T&ust=1669003591130000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIDvkYTxu_sCFQAAAAAdAAAAABAE" alt="">
+    </div>
+  </div>
+</div>
+  <script src="bootstrap-5.2.2-dist/js/bootstrap.min.js" defer></script>
+</body>
+
+</html>
